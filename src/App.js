@@ -1,4 +1,4 @@
-import Calc from './components/calculator.js';
+import Calc from './components/calculator';
 
 function App() {
   return (
