@@ -2,11 +2,17 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 function Calc() {
+  const [presentState, newState] = useState({ total: 0, next: null, operation: null });
+  const mouseClick = (event) => {
+    newState((presentState) => calculate(presentState, event.target.textContent));
+  };
   return (
     <>
       <div className="main">
         <div className="screen">
-          
+          {presentState.total}
+          {presentState.operation}
+          {presentState.next}
         </div>
         <div className="buttons">
           <div className='lines'>
