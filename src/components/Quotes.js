@@ -40,8 +40,8 @@ const Quot = () => {
   return (
     <div className="quotArea">
       <p className="buttons">
-        Quot of the day:<br></br>
-        {Quot.quote}
+        Quot of the day:
+        <br>{Quot.quote}</br>
       </p>
       <p className="author">
         Author:
@@ -50,5 +50,4 @@ const Quot = () => {
     </div>
   );
 };
-
 export default Quot;
