@@ -22,7 +22,7 @@ body {
   padding: 20px;
   color: #fff;
   height: 1em;
-  width: fixed;
+  width: 30px;
 }
 
 .buttons {
@@ -57,7 +57,7 @@ body {
 .quoteArea {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  text-align: left;
   gap: 1rem;
   width: 20px;
   font-size: 1em;
