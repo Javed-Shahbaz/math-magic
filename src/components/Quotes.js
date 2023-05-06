@@ -41,7 +41,7 @@ const Quot = () => {
     <div className="quotArea">
       <p className="buttons">
         Quot of the day:
-        <br>{Quot.quote}</br>
+        {Quot.quote}
       </p>
       <p className="author">
         Author:
