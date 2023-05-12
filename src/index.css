@@ -37,17 +37,19 @@ body {
 
 .main {
   width: 80%;
-  padding: 2em;
+  padding: 0.35em;
 }
 
 .screen {
   display: flex;
   font-size: 2em;
   justify-content: flex-end;
-  background-color: #9c9ca3;
-  color: #fff;
+  background-color: whitesmoke;
+  padding: 0 1em;
+  color: black;
   height: 2em;
-  width: 60%;
+  width: 300px;
+  position: relative;
 }
 
 .buttons {
