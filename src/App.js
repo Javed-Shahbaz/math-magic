@@ -7,7 +7,7 @@ import Quot from './components/Quotes';
 import Home from './components/Home';
 import Layout from './components/Layout';
 
-const App = () => {
+function App() {
   return (
     <>
       <Layout />
