@@ -11,7 +11,7 @@ body {
   justify-content: space-between;
   padding: 2em 4em;
   align-items: center;
-  background-color: maroon;
+  background-color: rgb(150, 132, 204);
   height: auto;
 }
 
@@ -102,16 +102,16 @@ body {
   text-align: justify;
 }
 
-.calcPage {
+.calcPg {
   display: grid;
   grid-template-columns: 1.3fr 2fr;
-  gap: 2rem;
+  gap: 10px;
   justify-content: center;
   justify-items: center;
   margin-top: 4rem;
 }
 
-.calcText {
-  font-size: 3rem;
-  margin: 5rem 2rem;
+.calTxt {
+  font-size: 3em;
+  margin: 5em 2em;
 }
