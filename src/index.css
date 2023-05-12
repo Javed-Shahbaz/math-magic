@@ -1,3 +1,7 @@
+#root {
+width: 100%;
+}
+
 body {
   display: flex;
   align-items: center;
@@ -36,7 +40,6 @@ body {
 }
 
 .main {
-  width: 80%;
   padding: 0.35em;
 }
 
@@ -48,7 +51,6 @@ body {
   padding: 0 1em;
   color: black;
   height: 2em;
-  width: 300px;
   position: relative;
 }
 
@@ -81,16 +83,6 @@ body {
   width: 200px;
 }
 
-.quoteArea {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  gap: 1rem;
-  width: 20px;
-  font-size: 1em;
-  font-family: 'Poppins', sans-serif;
-}
-
 .page1 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -114,4 +106,10 @@ body {
 .calTxt {
   font-size: 3em;
   margin: 5em 2em;
+}
+
+.txt {
+  text-align: justify;
+  font-family: 'Poppins' sans-serif;
+  font-size: 20px;
 }
