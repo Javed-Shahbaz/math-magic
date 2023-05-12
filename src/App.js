@@ -7,17 +7,16 @@ import Quot from './components/Quotes';
 import Home from './components/Home';
 import Layout from './components/Layout';
 
-const App = () => {
+const App = () =>{
   return (
     <>
       <Layout />
       <Routes>
         <Route path="/" element={<Home />}> </Route>
         <Route path="Calculator" element={<Calculator />}> </Route>
-        <Route path="Quotes" element={<Quot />} /> 
+        <Route path="Quotes" element={<Quot />} />
       </Routes>
     </>
   );
-}
-
+};
 export default App;
