@@ -9,7 +9,7 @@ function Calc() {
   return (
     <>
       <div className="calcPg">
-        <h2 className="calTxt">Let&apos;s do some math!</h2>
+        <h2 className="calTxt">Let&apos;s do Math!</h2>
         <div className="main">
           <div className="screen">
             {presentState.total}
